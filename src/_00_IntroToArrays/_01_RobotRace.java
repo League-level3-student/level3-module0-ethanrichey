@@ -22,17 +22,27 @@ public class _01_RobotRace {
 		
 		//5. use another for loop to iterate through the array and make each robot move 
 	    //   a random amount less than 50.
-		for (int i = 0; i < rob.length; i++) {
-			rob[i].move(rand.nextInt());
-
-		}
+		
 		//6. use a while loop to repeat step 5 until a robot has reached the top of the screen.
+  
+		while (rob[0].getY() < 0 || rob[1].getY()  < 0  || rob[2].getY()  < 0 || rob[3].getY() < 0 || rob[4].getY() < 0 || rob[5].getY() < 0) {
+			 for (int i = 0; i < rob.length; i++) {
+					rob[i].move(rand.nextInt(1000));
+					rob[i].setSpeed(1000);
+					
+		}
+	 
+		
+}
 
 		//7. declare that robot the winner and throw it a party!
-    	
+    		if(rob[5].getY() == 0) {
+    			rob[5].sparkle();
+    		}
 		//8. try different races with different amounts of robots.
     	
 	    //9. make the robots race around a circular track.
 
 	}
+
 }
