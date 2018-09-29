@@ -41,10 +41,14 @@ public class _00_ArrayCheatSheet {
 	}
 		System.out.println();
 		//10 print the entire array to see if step 8 was correct
-
+	for(int g: bof) {
+	System.out.println(g);	
+		
+	}
+}
 		//11. print the largest number in the array.
 		
 		//12. print only the last element in the array
 		
 	}
-}
+
