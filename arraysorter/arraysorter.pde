@@ -39,7 +39,12 @@ void draw() {
   stepSort(inte);
 
   //10. extract the code that randomizes the array into a method.
-  public random rando(float randum){
+  void makeRandom (int[] arr){
+   for(int f = 0, f < int[] arr.length, i++){
+     
+   }
+    
+  }
     
   }
 
