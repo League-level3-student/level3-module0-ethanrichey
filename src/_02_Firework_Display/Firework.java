@@ -28,6 +28,7 @@ Spark[] sp = new Spark[100];
 		//   Make each spark start at the middle bottom of the screen.
 	
 for(int i = 0; i < sp.length; i ++) {
+	
 	sp[i].x = 50;
 	sp[i].y = 200;
 
